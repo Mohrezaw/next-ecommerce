@@ -1,36 +1,73 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Next E-Commerce
+
+## Overview
+
+Next E-Commerce is a responsive product page built with modern frontend technologies. It showcases product details, interactive options, user reviews, and ratings while following best practices in frontend development.
+
+## Tech Stack
+
+- **Next.js 14** - Framework for server-side rendering and static site generation.
+- **TypeScript** - Ensures type safety.
+- **ShadCN** - UI components.
+- **Context API** - State management.
+- **Tailwind CSS** - Utility-first styling for a responsive design.
+
+## Features
+
+- **Product Details:** Display product images, price, and description.
+- **Product Variants:** Select options like size and color dynamically.
+- **Reviews & Ratings:** View user reviews and add new ones.
+- **Responsive Design:** Works seamlessly across devices.
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+Make sure you have Node.js installed:
+
+```sh
+node -v
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Installation
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/yourusername/next-ecommerce.git
+   ```
+2. Navigate to the project folder:
+   ```sh
+   cd next-ecommerce
+   ```
+3. Install dependencies:
+   ```sh
+   npm install
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Running the Development Server
 
-## Learn More
+Start the Next.js development server:
 
-To learn more about Next.js, take a look at the following resources:
+```sh
+npm run dev
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The app will be available at `http://localhost:3000/`.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Deployment
 
-## Deploy on Vercel
+To build and deploy the application:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```sh
+npm run build
+npm run start
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Contributing
+
+Contributions are welcome! Feel free to open issues or submit pull requests.
+
+## License
+
+This project is licensed under the MIT License.
+
